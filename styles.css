@@ -1,0 +1,141 @@
+html{
+  font-size: 10px;
+  font-family: sans-serif;
+}
+body{
+   background: white;
+   overflow-x: hidden;
+   min-height: 100vh;
+}
+
+/*main section  */
+#main-doc{
+ position: absolute;
+  padding: 20px;
+  margin-left: 312px;
+  min-width: 200px;
+}
+#main-doc header{
+  font-size: 3.5rem;
+  margin-left: 48px;
+}
+.main-section{
+  margin-bottom: 40px;
+}
+h2{
+  margin-left: 54px;
+  font-size: 2.5rem;
+  border-bottom: solid;
+}
+h3{
+  margin-left: 10px;
+  padding-top: 15px;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+#main-doc p, #main-doc ul, .innerBox{
+  font-size: 2rem;
+  margin-left: 67px;
+}
+span:not(.int, .string){
+  margin-left: 25px;
+}
+img{
+  height: 39px;
+  margin-left: 5px;
+  position: relative;
+  top: 12;
+}
+
+code{
+  font-family: courier; 
+  /* background-color: #D3D3D3; */
+  
+}
+
+.outerBox{
+background-color: #D3D3D3;
+  height: 270px;
+  width: 950px;
+  margin-left: 70px;
+  border-radius: 15px;
+}
+.innerBox{
+  position: relative;
+  top:-15;
+  left: -50px;
+  height: 55%;
+  width: 92%;
+  padding: 10px 10px 45px 10px;
+background-color: white;
+}
+.int, .return{
+  color: blue;
+}
+.string{
+  color: #800000
+}
+.comment{
+  color: green;
+}
+/*end of main doc*/
+
+
+/* Navigation Bar*/
+#navbar{
+  position: fixed;
+  z-index: 1;
+  top:0;
+  left: 0;
+  padding-top: 45px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  border-right: solid 2px;
+}
+#navbar header{
+  margin-right: 24px;
+  font-size: 3.5rem;
+  margin-left: 24px;
+  margin-top: -30px;
+}
+#navbar ul{
+background: linear-gradient(160deg,  rgba(242,222,30,1) 35%, rgba(255,145,0,1) 100%);
+min-height: 100vh;
+margin-left: -38px;
+}
+
+#navbar li{
+list-style-type: none;border-top: solid 1px;
+text-indent: 27px;
+
+margin-top: 20px;
+
+padding-top:25px;
+position: relative;
+
+}
+
+.nav-link{  text-decoration: none;
+color: black;
+font-size: 2.5rem;
+}
+.nav-link:visited{
+  color: black;
+}
+.nav-link:hover{
+  background: #d3d3d3;
+  border-radius: 15%;
+}
+/*end of Navigation Bar*/
+
+@media (max-width: 780px) and (max-width: 1200px){
+
+}
+
+@media only screen and (max-width: 200px){
+  
+}
+
+.indent{
+  text-indent: 22px;
+}
